@@ -14,6 +14,15 @@
 You might need to set up a flag when running your app such as `--max-http-header-size 35000` since the incoming headers are way more than default. Node's default 8KB is therefor not enough.`(CVE-2018-12121 and CVE-2018-12122)`.
 
 
+## Installing
+```js
+// npm
+npm i @leventhan/address-validation-and-autosuggestions
+
+// yarn 
+yarn add @leventhan/address-validation-and-autosuggestions
+```
+
 ## Examples
 
 #### Example for the autosuggestion
