@@ -1,3 +1,6 @@
+<p align="center">
+    <img src="./bpost-repo-logo.jpg" width="300" />
+</p>
 # Address autosuggestion and validation
  Wrapper for the BPOST's address autosuggest and validate API.
  - Only for Belgium addresses. 
