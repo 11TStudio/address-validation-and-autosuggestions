@@ -6,6 +6,9 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/11TStudio/address-validation-and-autosuggestions.svg?style=flat-square)](https://github.com/11TStudio/address-validation-and-autosuggestions/graphs/contributors)
 [![GitHub release](https://img.shields.io/github/license/11TStudio/SquadStatsJSPRO.svg?style=flat-square)](https://github.com/11TStudio/address-validation-and-autosuggestions/blob/master/LICENSE)
 
+
+## Note
+You might need to set up a flag when running your app such as `--max-http-header-size 15000`
 ## Examples
 
 #### Example for the autosuggestion
