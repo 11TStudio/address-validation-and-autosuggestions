@@ -7,8 +7,10 @@
 [![GitHub release](https://img.shields.io/github/license/11TStudio/SquadStatsJSPRO.svg?style=flat-square)](https://github.com/11TStudio/address-validation-and-autosuggestions/blob/master/LICENSE)
 
 
-## Note
-You might need to set up a flag when running your app such as `--max-http-header-size 15000`
+## Required Node changes
+You might need to set up a flag when running your app such as `--max-http-header-size 35000` since the incoming headers are way more than default. Node's default 8KB is therefor not enough.`(CVE-2018-12121 and CVE-2018-12122)`.
+
+
 ## Examples
 
 #### Example for the autosuggestion
