@@ -19,7 +19,7 @@
   "author": "LeventHAN (https://github.com/11TStudio)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/11TStudio/address-validation-and-autosuggestions.git"
+    "url": "git+https://github.com/11TStudio/address-validation-and-autosuggestions.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -33,5 +33,12 @@
   },
   "engines": {
     "node": ">=12.18"
+  },
+  "bugs": {
+    "url": "https://github.com/11TStudio/address-validation-and-autosuggestions/issues"
+  },
+  "homepage": "https://github.com/11TStudio/address-validation-and-autosuggestions#readme",
+  "directories": {
+    "example": "examples"
   }
 }
