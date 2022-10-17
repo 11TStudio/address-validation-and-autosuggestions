@@ -1,11 +1,12 @@
 import axios from "axios";
+import { IValidation } from "../interfaces/validation";
 
 export class Validation {
     REST_API_URL = "https://www.bpost.be/en/bbw-ajax/validate-driver-address";
 
     constructor () {}
 
-    getSuggestions(street: string, houseNumber: number, bus = '', postalCode: number, city: string): Promise<Validation> {
+    validate(street: string, houseNumber: string, bus = "", postalCode: number, city: string): Promise<IValidation> {
         return new Promise((resolve, reject) => {
             axios.post(this.REST_API_URL, {
                 postal_address_1: street,
@@ -15,7 +16,7 @@ export class Validation {
                 postal_address_5: city,
             })
             .then((response) => {
-                resolve(response.data as Validation)
+                resolve(response.data)
             }).catch(reject)
         });
     }

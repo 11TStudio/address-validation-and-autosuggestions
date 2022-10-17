@@ -15,7 +15,7 @@ export interface ErrorCode {
     ErrorCode: string;
     ErrorSeverity: string;
 }
-export interface IValidation {
+export interface Validation {
     status: string;
     message: string;
     address_response: AddressResponse[];

@@ -14,7 +14,7 @@ export class AutoSuggestion {
         return new Promise((resolve, reject) => {
             axios.get(this.REST_API_URL, { params: { id: this.id++, searchText: input}})
             .then((response) => {
-                resolve(response.data as IAutoSuggestion)
+                resolve(response.data)
             }).catch(reject)
         });
     }
