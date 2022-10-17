@@ -14,6 +14,11 @@ export class Validation {
                 postal_address_3: bus,
                 postal_address_4: postalCode,
                 postal_address_5: city,
+            },
+            {
+                headers: {
+                    "Content-Type": "multipart/form-data",
+                },
             })
             .then((response) => {
                 resolve(response.data)
